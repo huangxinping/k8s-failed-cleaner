@@ -1,0 +1,1 @@
+kubectl --insecure-skip-tls-verify get po --all-namespaces | awk '{if ($4 == "Evicted") system ("kubectl --insecure-skip-tls-verify -n " $1 " delete pods " $2 " ")}'

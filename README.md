@@ -2,4 +2,4 @@
 
 ## Usage  
 
-`docker run -v ~/.kube/config:/root/.kube/config huangxinping/kubectl:v1.13.5`
+`docker run -v ~/.kube/config:/root/.kube/config huangxinping/kubectl:v1.18.0`
